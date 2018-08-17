@@ -446,3 +446,161 @@
     font-family: "微软雅黑";
     line-height: 32px;
 }
+.question{
+    height: 624px;
+    background: #ffff;
+}
+.ht_b{
+    font-family:"微软雅黑";
+    font-size:36px;
+    font-weight:bolder;
+    font-style:normal;
+    display:block;
+    text-align: center;
+    color:#31353D;
+    margin:100px auto 0;
+}
+.header_subtitle_b{
+    display:block;
+    padding:10px 0 0 0;
+    text-align: center;
+    color:#B6B6B6;
+    font-family:"微软雅黑";
+    font-size:15px;
+    font-weight:normal;
+    font-style:normal;
+}
+.qu_bottom{
+    width: 1190px;
+    height: 338px;
+    margin:63px auto 0;
+}
+.qu_bottom ul{
+    width: 1190px;
+    height: 338px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.case{
+    width: 593px;
+    height: 149px;
+    padding:20px;
+    margin-bottom: 20px;
+}
+.bit_link{
+    color: #22252b;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    line-height: 24px;
+}
+.case a{
+    text-decoration: none;
+}
+.bo_bit_link{
+    width: 553px;
+    height: 54px;
+    color:#999999;
+    font-size:13px;
+    font-family:"微软雅黑";
+    line-height:22px;
+    padding-top:10px;
+}
+.yd{
+    width: 553px;
+    height: 23px;
+}
+.yd a{
+    color: #1e82e8;
+    font-size: 13px;
+    font-family:"微软雅黑";
+}
+.footer{
+    width: 100%;
+    height: 669px;
+    background:#F7F7F7;
+    padding:20px 0 20px 0;
+}
+.wf-wrap{
+    width: 1270px;
+    height: 628px;
+    padding:0 40px;
+    margin:0 auto;
+}
+.wf-container{
+    width: 1190px;
+    height: 628px;
+}
+.widgetsimplepage{
+    width: 1190px;
+    height: 608px;
+    margin-bottom:20px;
+}
+.qfe_wrapper{
+    width: 1180px;
+    height: 98px;
+    margin-top: 12px
+}
+.qfe_wrapper>img{
+    display: block;
+    width: 231px;
+    height: 98px;
+    margin: 0 auto;
+}
+.lksj{
+    width: 1180px;
+    height: 33px;
+    text-align: center;
+    margin-top:20px;
+}
+.lksj>span{
+    font-size:14px;
+    color: #666666;
+}
+.mn{
+    text-align: center;
+    font-size:13px;
+    color:#A9A9A9;
+    margin-top: 24px;
+}
+.sb{
+    width: 1180px;
+    height: 37px;
+    margin-top: 12px;
+}
+.contina{
+    width: 266px;
+    height: 37px;
+    border-left: 3px solid #2489E2;
+    border-right: 3px solid #2489E2;
+    margin:0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #2489E2;
+}
+.sbop{
+    width: 1180px;
+    height: 146px;
+    margin-top: 30px;
+}
+.cen{
+    width: 240px;
+    height: 121px;
+    margin:0 auto;
+    display:flex;
+}
+.kuai{
+    width: 120px;
+    height: 111px;
+}
+.kuai>img{
+    display: block;
+    width: 85px;
+    height: 85px;
+    margin:0 auto;
+}
+.kuai>div{
+    margin-top: 12px;
+    text-align: center;
+    font-size:13px;
+    color:#A9A9A9;
+}
