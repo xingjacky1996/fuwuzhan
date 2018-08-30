@@ -99,6 +99,7 @@
 .fa_bottom{
     width: 100%;
     height: 436px;
+    overflow: hidden;
 }
 .Box{
     width: 1190px;
@@ -112,6 +113,26 @@
     background:#1e82e8;
     color:#fff;
     margin-right: 10px;
+    animation: up 1s 1.5s 1 forwards;
+}
+@keyframes up{
+    0%{
+        transform: translateY(500px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.box:hover{
+    box-shadow: 0px 0px 2px 4px rgba(30, 130, 232, 0.2);
+}
+.box:hover img{
+    transform: translateY(-18px);
+    transition: all 0.2s 0s linear;
+}
+.box:hover div{
+    transform: translateY(-18px);
+    transition: all 0.2s 0s linear;
 }
 .box img{
     margin:43px 100px  0px;
@@ -246,6 +267,7 @@
     width: 276px;
     height: 105px;
     margin-top: 50px;
+    animation: up 1s 3s 1 forwards;
 }
 .jq{
     font-size: 42px;
@@ -296,11 +318,34 @@
     width: 642px;
     height: 382px;
     background:#f8f8f8;
-    padding:20px 20px 18px 17px; 
+    padding:20px 20px 18px 17px;
+    overflow: hidden;
+    position: relative; 
 }
-.new_box_left>img{
+.new_box_left_hidden{
+    width: 642px;
+    height: 382px;
+    background: #1E82E8;
+    position: absolute;
+    bottom:-382px;
+    left:0px;
+    z-index: 0;
+}
+.new_box_left:hover .new_box_left_hidden{
+    transform: translateY(-382px);
+    transition: all 0.3s ease-out 0s
+}
+.budlidding_png{
     width: 602px;
     height: 277px;
+}
+.budlidding_png>img{
+    width: 602px;
+    height: 277px;
+    z-index: 999;
+}
+.new_box_left:hover .new_box_left>img{
+    transform: skew(0.3);
 }
 .item_info{
     width: 603px;
