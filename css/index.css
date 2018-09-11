@@ -13,12 +13,13 @@
 .header img{
     width: 149px;
     height: 63px;
-    margin-top:15px;
+    margin:15px 0 0 356px;
 }
 .right_head{
     width: 640px;
     height: 90px;
     float:right;
+    margin-right: 350px;
 }
 .right_head>ul{
     width: 640px;
@@ -43,9 +44,9 @@
 }
 .bannar{
     width: 100%;
-    height: 760px;
-    background: url(../img/bannar.jpg);
-    background-size: 100% 760px;
+    height: 740px;
+    background-image: url(../img/bannar.jpg);
+    background-size: 100% 740px;
     overflow: hidden;
 }
 .zi{
@@ -54,7 +55,7 @@
     left:690px;
     bottom:284px;
     margin:294px auto 0px;
-    font-family: "黑体";
+    font-family: "微软雅黑";
     font-weight:bolder; 
     font-size: 50px;
     color:#ffffff;
@@ -70,6 +71,10 @@
     height: 286px;
     overflow: hidden;
 }
+.fa_top_a{
+    width: 100%;
+    height: 146px;
+}
 .fa_top_co{
     width: 1190px;
     height: 146px;
@@ -79,9 +84,10 @@
 .sm_fa{
     font-family: "微软雅黑";
     font-weight:bolder; 
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     line-height:56px;
+    color:#31353D;
 }
 .sm_fa_su{
     font-family: "微软雅黑";
@@ -113,15 +119,6 @@
     background:#1e82e8;
     color:#fff;
     margin-right: 10px;
-    animation: up 1s 1.5s 1 forwards;
-}
-@keyframes up{
-    0%{
-        transform: translateY(500px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
 }
 .box:hover{
     box-shadow: 0px 0px 2px 4px rgba(30, 130, 232, 0.2);
@@ -175,6 +172,11 @@
     height: 648px;
     background:#eff3f7;
 }
+.fa_top_s{
+    width: 100%;
+    height: 115px;
+    padding:95px 0 39px 0;
+}
 .fa_bottom_2{
     width: 1190px;
     height: 362px;
@@ -203,8 +205,9 @@
 }
 .about{
     width: 100%;
-    height: 960px;
+    height: 951px;
     background:#eff3f7;
+    overflow: hidden;
 }
 .tu{
     width: 1190px;
@@ -259,14 +262,14 @@
 }
 .number{
     width: 1100px;
-    height: 205px;
+    height: 255px;
     margin:0 auto;
     display:flex;
 }
 .nu{
     width: 276px;
     height: 105px;
-    margin-top: 50px;
+    margin-top: 70px;
     animation: up 1s 3s 1 forwards;
 }
 .jq{
@@ -303,6 +306,11 @@
     height: 701px;
     background:#fff;
 }
+.fa_top_1{
+    width: 100%;
+    height: 120px;
+    padding:58px 0 23px 0;
+}
 .new_bottom{
     width: 100%;
     height: 415px;
@@ -315,10 +323,10 @@
     justify-content: space-between;
 }
 .new_box_left{
-    width: 642px;
-    height: 382px;
+    width: 603px;
+    height: 342px;
     background:#f8f8f8;
-    padding:20px 20px 18px 17px;
+    padding:20px;
     overflow: hidden;
     position: relative; 
 }
@@ -389,18 +397,18 @@
     font-family:"微软雅黑";
 }
 .new_box_right{
-    width: 535px;
-    height: 292px;
+    width: 536px;
+    height: 377px;
     float:right;
+    margin-left: 12px;
 }
 .new_box_right_s{
-    width: 
-    535px;
-    height: 83px;
-    margin-bottom:15px;
-    padding:15px;
+    width: 495.5px;
+    height: 43px;
+    padding:20px;
     background:#f8f8f8;
     display:flex;
+    margin-bottom: 15px;
 }
 .item_a_link{
     width: 420px;
@@ -437,16 +445,12 @@
     position:relative;
 }
 .vc{
-    width: 808px;
-    height: 204px;
+    width: 100%;
+    height: 108px;
     position: relative;
     background-repeat: no-repeat;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 60px;
-    padding-bottom: 36px;
-    padding-right: 0;
-    padding-left: 0;
+    margin:0 auto;
+    padding: 120px 0 36px 0;
 }
 .ht{
     font-family:"微软雅黑";
@@ -481,7 +485,7 @@
 .ba{
    width: 808px;
    height: 55px;
-   margin-top: 100px; 
+   margin-top: 54px; 
 }
 .ba img{
     width: 118px;
@@ -495,6 +499,25 @@
     color:#FFFFFF;
     font-family: "微软雅黑";
     line-height: 32px;
+    margin-top: 18px;
+}
+.se_kuai_a{
+    width: 100%;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.se_kuai_1{
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    margin-right: 8px;
+}
+.se_kuai_2{
+    width: 8px;
+    height: 8px;
+    background-color: #1E82E8;
 }
 .question{
     height: 624px;
@@ -532,8 +555,8 @@
     flex-wrap: wrap;
 }
 .case{
-    width: 593px;
-    height: 149px;
+    width: 554px;
+    height: 109px;
     padding:20px;
     margin-bottom: 20px;
 }
@@ -563,6 +586,24 @@
     color: #1e82e8;
     font-size: 13px;
     font-family:"微软雅黑";
+}
+.partener{
+    width: 100%;
+    height: 540px;
+}
+.partener_top{
+    width: 100%;
+    height: 120px;
+    padding:104px 0 60px 0;
+}
+.partener_bottom{
+    width: 100%;
+    height: 100%;
+}
+.partener_bottom img{
+    width: 1179px;
+    height: 156px;
+    margin-left: 354px;
 }
 .footer{
     width: 100%;
