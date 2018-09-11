@@ -618,16 +618,17 @@
     margin:0 auto;
 }
 .wf-container{
-    width: 1190px;
+    width: 100%;
     height: 628px;
+    margin:0 auto;
 }
 .widgetsimplepage{
-    width: 1190px;
+    width: 100%;
     height: 608px;
     margin-bottom:20px;
 }
 .qfe_wrapper{
-    width: 1180px;
+    width: 100%;
     height: 98px;
     margin-top: 12px
 }
@@ -638,7 +639,7 @@
     margin: 0 auto;
 }
 .lksj{
-    width: 1180px;
+    width: 100%;
     height: 33px;
     text-align: center;
     margin-top:20px;
@@ -656,7 +657,7 @@
 .sb{
     width: 1180px;
     height: 37px;
-    margin-top: 12px;
+    margin: 12px auto;
 }
 .contina{
     width: 266px;
@@ -697,7 +698,6 @@
     color:#A9A9A9;
 }
 .foot_bottom_word{
-    width: 1160px;
     height: 210px;
     margin:0 auto;
     padding: 50px 160px 0px 160px;
@@ -707,6 +707,7 @@
     width: 800px;
     height: 160px;
     display: flex;
+    margin:0 auto;
 }
 .foot_bottom_word_box{
     width: 200px;
